@@ -4,6 +4,7 @@ import SignUp from "./components/SignUp"
 import Card from "./components/Card"
 import Navbar from "./components/Navbar"
 import Slidebar from "./components/Slidebar"
+import Bookingform from "./components/Bookingform"
 function App() {
   
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Card" element={<Card/>}></Route>
         <Route path="/Navbar" element={<Navbar/>}></Route>
         <Route path="/Slidebar" element={<Slidebar/>}></Route>
+        <Route path="/Bookingform" element={<Bookingform/>}></Route>
       </Routes>
     </Router>
     </>
